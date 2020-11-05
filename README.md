@@ -77,3 +77,5 @@ create store and applying middleware(redux-thunk)
 const store = createStore(reducers, applyMiddleware(thunk));
 ```
 Will wrap `App` inside `Provider` for redux and passing store.
+
+---
